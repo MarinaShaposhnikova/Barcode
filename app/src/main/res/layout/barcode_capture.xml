@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+    <com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.google.android.gms.samples.vision.barcodereader.ui.camera.GraphicOverlay
+            android:id="@+id/graphicOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview>
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:text="Tap to capture. Pinch/Stretch to zoom"-->
+    <!--android:textColor="@color/colorAccent" />-->
+</LinearLayout>

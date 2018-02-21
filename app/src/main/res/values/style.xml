@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Barcode.Button" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Barcode.CheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Barcode.FloatingButton" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+</resources>
